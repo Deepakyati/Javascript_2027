@@ -9,10 +9,10 @@ that spans multiple lines.
 
 
 var name = "Deepak yati"; // variable declaration and initialization
-var age = 30; // variable declaration and initialization
+var a = 30; // variable declaration and initialization
 
 console.log(name);
-console.log(age);
+console.log(a);
 
 
 /* After ES6, 
@@ -30,3 +30,20 @@ console.log(typeof b); // number
 
 let isStudent = true; // boolean
 console.log(typeof isStudent); // boolean
+
+
+//operators
+
+let c=a+b
+console.log(c); // 64.6
+
+/* var vs let vs const
+
+// var is function-scoped, while let and const are block-scoped. 
+// This means that variables declared with var are accessible throughout the entire function in 
+// which they are declared, 
+// while variables declared with let and const are only accessible within the block in which they 
+// are declared.
+
+*/
+
