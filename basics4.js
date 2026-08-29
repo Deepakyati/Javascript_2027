@@ -15,3 +15,8 @@ console.log("Odd scores: " + oddscore);
 var newScores = scores.map(score => score * 2);
 console.log("New scores: " + newScores);
 
+
+// map
+
+
+
